@@ -9,6 +9,10 @@ Finally, run ```extract_perf_grid_search.py``` script (with the proper arguments
 
 In ```grid_search.sh``` there are two possible THRESH_QUERY lists for the grid search. The default one was used for the index with m=16. Comment this line and uncomment the line below for the m=32 index configuration.
 
+<p align="center">
+  <img height=500px width=550px src="https://github.com/SilvioM97/emvb/blob/master/table.png">
+</p>
+
 # Efficient Multi-Vector Retrieval with Bit Vectors (EMVB)
 
 This repo contains the code and instructions on how to reproduce the results of the ECIR 2024 paper: Franco Maria Nardini, Cosimo Rulli, Rossano Venturini. "Efficient Multi-vector Dense Retrieval with Bit Vectors." European Conference on Information Retrieval. 2024.
