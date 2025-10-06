@@ -15,6 +15,13 @@ You can find machine specifications [here](https://github.com/SilvioM97/emvb/blo
   <img height=500px width=550px src="https://github.com/SilvioM97/emvb/blob/master/table.png">
 </p>
 
+IGP results were found with a grid search over 30 configurations obtained combining these values:
+
+- nprobe: [1, 2, 4, 8, 16, 32]
+- probe_topk: [100, 200, 300, 400, 600]
+
+Peak MRR@10 achieved is 0.392.
+
 # Efficient Multi-Vector Retrieval with Bit Vectors (EMVB)
 
 This repo contains the code and instructions on how to reproduce the results of the ECIR 2024 paper: Franco Maria Nardini, Cosimo Rulli, Rossano Venturini. "Efficient Multi-vector Dense Retrieval with Bit Vectors." European Conference on Information Retrieval. 2024.
