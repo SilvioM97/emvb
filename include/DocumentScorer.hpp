@@ -13,6 +13,8 @@
 #include "mkl.h"
 #include <immintrin.h>
 #include <filesystem>
+#include <iterator>
+#include <sstream>
 #include "Heap.hpp"
 using namespace std;
 using namespace cnpy;

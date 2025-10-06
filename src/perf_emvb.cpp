@@ -27,7 +27,7 @@ void configure(cmd_line_parser::parser &parser)
 
     parser.add("out_second_stage", "Number of candidate documents selected with bitvectors", "-out-second-stage", false);
     parser.add("n_doc_to_score", "Number of document to score", "-n-doc-to-score", false);
-    parser.add("queries_id_file", "Path to queries_id file", "-queries-id-file", false); // todo remove in the future questo troiaio (id only tsv)
+    parser.add("queries_id_file", "Path to queries_id file", "-queries-id-file", false); // todo remove in the future (id only tsv)
     parser.add("alldoclens_path", "Path to the doclens file", "-alldoclens-path", false);
     parser.add("outputfile", "Path to the output file used to compute the metrics", "-out-file", false);
 
