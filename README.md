@@ -9,6 +9,8 @@ Finally, run ```extract_perf_grid_search.py``` script (with the proper arguments
 
 In ```grid_search.sh``` there are two possible THRESH_QUERY lists for the grid search. The default one was used for the index with m=16. Comment this line and uncomment the line below for the m=32 index configuration.
 
+You can find machine specifications [here](https://github.com/SilvioM97/emvb/blob/master/machine_specs.md).
+
 <p align="center">
   <img height=500px width=550px src="https://github.com/SilvioM97/emvb/blob/master/table.png">
 </p>
